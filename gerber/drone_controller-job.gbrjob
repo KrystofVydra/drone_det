@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-06-27T10:01:34+02:00"
+    "CreationDate": "2025-07-09T21:54:35+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,32 +14,32 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 40.35,
-      "Y": 16.2
+      "X": 61.0486,
+      "Y": 16.25
     },
     "LayerNumber": 2,
-    "BoardThickness": 1.6,
+    "BoardThickness": 1.6002,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "drone_controller-F_Cu.gbr",
+      "Path": "drone_controller-Front.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "drone_controller-B_Cu.gbr",
+      "Path": "drone_controller-Back.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
@@ -96,19 +96,19 @@
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "F.Cu"
+      "Name": "Front"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
+      "Thickness": 1.5102,
       "Material": "FR4",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "Name": "Front/Back",
+      "Notes": "Type: dielectric layer 1 (from Front to Back)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "B.Cu"
+      "Name": "Back"
     },
     {
       "Type": "SolderMask",
